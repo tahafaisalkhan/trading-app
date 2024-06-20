@@ -1,0 +1,203 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.trade-detail-container {
+    max-width: 600px;
+    /* Smaller container width */
+    margin: 20px auto;
+    padding: 15px;
+    /* Reduced padding */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.back-link {
+    display: block;
+    margin-bottom: 15px;
+    /* Reduced margin */
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+    /* Smaller font size */
+}
+
+.trade-title {
+    margin-bottom: 15px;
+    /* Reduced margin */
+    color: #333;
+    font-size: 1.5rem;
+    /* Adjusted font size */
+}
+
+.trade-image {
+    width: 100%;
+    /* Keeps image responsive */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    /* Reduced margin */
+}
+
+.trade-details,
+.accepting-conditions,
+.profile-link {
+    margin-bottom: 15px;
+    /* Reduced margin */
+    font-size: 0.9rem;
+    /* Adjusted font size for details */
+}
+
+.accepting-conditions {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.offer-trade-btn {
+    display: block;
+    width: auto;
+    /* Adjust width for button */
+    padding: 8px 10px;
+    /* Reduced padding */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+    /* Reduced margin */
+    font-size: 0.9rem;
+    /* Adjusted font size */
+}
+
+.offer-trade-btn:hover {
+    background-color: #45a049;
+}
+
+.profile-link {
+    display: block;
+    text-align: center;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    /* Adjusted font size */
+}
+
+.accept-btn {
+    color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.reject-btn {
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.offers-sent-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-tile {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.offer-tile:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.offer-image-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.offer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.offer-info {
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
+.offer-title,
+h4,
+p {
+    margin: 0;
+    padding: 2px 0;
+}
+
+.offer-title {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+h4, p {
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.offer-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accept-btn {
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 8px;
+}
+
+.reject-btn {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* General Styling for Consistency */
+h3, h4, p {
+    color: #333;
+}
+
+.status-rejected {
+    color: red;
+}
+

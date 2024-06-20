@@ -1,0 +1,79 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.hero {
+  background-image: url('backgroundImage.jpg');
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* Full viewport height */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 2s;
+  z-index: 1;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+  animation: slideInFromLeft 1s ease-out;
+  color: white;
+  z-index: 2; 
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin: 0.5rem;
+  animation: slideInFromRight 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
