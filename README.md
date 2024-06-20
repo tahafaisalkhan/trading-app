@@ -1,4 +1,4 @@
-<img width="1440" alt="Screenshot 2024-06-20 at 11 33 41 PM" src="https://github.com/tahafaisalkhan/trading-app/assets/157153519/39588d58-ac64-4791-b661-0201321da2ee"># MERN Stack Trading App
+# MERN Stack Trading App
 
 ## Overview
 This project is a MERN (MongoDB, Express.js, React, Node.js) stack application designed to facilitate trading between users. The app enables users to create trades, browse ongoing trades, make offers using a combination of cash and items, and manage their profiles.
@@ -49,7 +49,8 @@ This project is a MERN (MongoDB, Express.js, React, Node.js) stack application d
 ### Profile Management
 - **Profile Screen**: Displays user's profile information, including username, created trades, sent offers, and the number of items they own.
 - **Change Password**: Users can navigate to change their password.
-<img width="1440" alt="Screenshot 2024-06-20 at 11 34 06 PM" src="https://github.com/tahafaisalkhan/trading-app/assets/157153519/dd1b0025-d336-4004-ae5d-48d31dc44d5e">
+<img width="1439" alt="Screenshot 2024-06-20 at 11 33 58 PM" src="https://github.com/tahafaisalkhan/trading-app/assets/157153519/59c47099-8eb8-4235-97f1-fc58dc9dea3b">
+
 
 - **Profile Navigation**: The profile page provides navigation to the change password and create trade screens.
 <img width="1439" alt="Screenshot 2024-06-20 at 11 33 52 PM" src="https://github.com/tahafaisalkhan/trading-app/assets/157153519/fa5a293a-8440-4ae7-bca3-e6ee026fff9b">
